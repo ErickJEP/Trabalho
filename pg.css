@@ -65,10 +65,17 @@ font-size: 20px;
 padding: 2px 0px 7px 13px;
 
 }
-main img{
-display: flex;
-justify-content: start;
-margin: 10px;
-border: 1px solid black;
 
-}
+.delado{
+   display: flex;
+    border: 1px solid black;
+    
+    }
+
+main img{
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+    border: 1px solid black;
+    
+    }
