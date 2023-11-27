@@ -8,21 +8,28 @@
 
 :root{
 
---cor1: black;
---cor2: white; 
---cor3:
---cor4:
---cor5:
+    --cor1: #0D0D0D;
+    --cor2: #F2F2F2;
+    --cor3: #F24E29;
+    --cor4: #D96E30;
+    --cor5: #F2B807;
 
 
 }
 
 header{
-padding: 30px;
+background-color: var(--cor4);
 text-align: center;
-
+padding: 20px;
 }
 header > h1{
-
+color: var(--cor2);
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.678);
     
+}
+
+header > p {
+color: var(--cor2);
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.726);
+
 }
