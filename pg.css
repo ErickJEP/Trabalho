@@ -68,7 +68,7 @@ padding: 2px 0px 7px 13px;
 
 .delado{
    display: flex;
-    
+    min-width: 210px;
     }
 .delado h1{
 font-size: 23px;
@@ -81,5 +81,6 @@ main img{
     justify-content: start;
     margin: 10px;
     border: 1px solid black;
-    
+    width: 100px;
+    height: 100px;
     }
