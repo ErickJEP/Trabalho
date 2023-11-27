@@ -68,9 +68,13 @@ padding: 2px 0px 7px 13px;
 
 .delado{
    display: flex;
-    border: 1px solid black;
     
     }
+.delado h1{
+font-size: 23px;
+
+}
+
 
 main img{
     display: flex;
