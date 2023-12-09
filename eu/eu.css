@@ -79,7 +79,7 @@ padding: 10px 0px;
 main > nav > a:hover{
 font-size: 25px;
 text-decoration: underline;
-
+transition-duration: .4s;
 background-color: var(--cor3);
 }
 footer{
