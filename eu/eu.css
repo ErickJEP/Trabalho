@@ -24,28 +24,32 @@ padding: 0%;
 
 }
 
-nav{
-padding: 10px;
+nav.navegação{
+height: 80px;
 background-image: linear-gradient(to right, var(--cor3), var(--cor2));
 display: flex;
-justify-content: center;
+align-items: center;
 
 }
 
-nav > a{
+nav > div > a{
 color: white;
 text-decoration: none;
 margin: 10px 15px 10px 10px;
 background-color: var(--cor5);
 padding: 7px;
 border-radius: 10px;
-display: flex;
-align-items: center;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.884);
+}
+.filhos{
+flex: 20%;
+ 
 }
 
-div.adaptar{
-margin: 0%;
-padding: 0%;
+div.logo{
+
+
+
 }
 
 img.pequena{
