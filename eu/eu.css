@@ -22,72 +22,32 @@ padding: 0%;
 
 --fonte_titulo: "Zilla Slab", arial, sans-serif;
 
-
-}
-body{
-background-color: var(--cor2);
-
-}
-#eu{
-width: 130px;
-border-radius: 40%;
-border: 1px solid rgba(0, 0, 0, 0.356);
-margin: 3px;
 }
 
-header{
-text-align: center;
-margin: 10px;
-}
-
-header > h1{
-color: white;
-text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.747);
-padding-bottom: 10px;
-font-size: 20px;
-}
-
-header > p{
-color: white;
-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.774);
+nav{
 padding: 10px;
-}
-
-main > nav{
-align-items: center;
+background-image: linear-gradient(to right, var(--cor3), var(--cor2));
 display: flex;
-flex-direction: column;
-
-}
-
-main > nav > a{
-background-color: var(--cor4);
-color:white;
-display: flex;
-width: 100%;
-max-width: 500px;
-min-width: 200px;
-margin: 10px;
-text-decoration: none;
-font-size: 16px;
-border-radius: 12px;
 justify-content: center;
-padding: 10px 0px;
 
 }
 
-main > nav > a:hover{
-font-size: 25px;
-text-decoration: underline;
-transition-duration: .4s;
-background-color: var(--cor3);
-}
-footer{
-background-color: var(--cor5);
-margin-top: 170px;
+nav > a{
 color: white;
-text-align: center;
+text-decoration: none;
+margin: 10px 15px 10px 10px;
+background-color: var(--cor5);
+padding: 7px;
+border-radius: 10px;
+display: flex;
+align-items: center;
 }
 
+div.adaptar{
+margin: 0%;
+padding: 0%;
+}
 
-
+img.pequena{
+width: 60px;
+}
