@@ -1,85 +1,115 @@
 @charset "UTF-8";
 
-*{
-    margin: 0%;
-    padding: 0%;
 
-}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
 
 :root{
 
-    --cor1: #0D0D0D;
-    --cor2: #F2F2F2;
-    --cor3: #F24E29;
-    --cor4: #D96E30;
-    --cor5: #F2B807;
+    --cor1: #F24C27 ;
+    --cor2: #D96E30;
+    --cor3: #F2B705;
+    --cor4: #F2CB05;
+    --cor5: #F2F2F2 ;
 
+   --fonte-padrão:Arial,Helvetica, sans-serif;
+  --fonte-titulo: "Courier Prime", "cursive";
+}
 
+*{
+  margin: 0%;
+  padding: 0%;
 }
 
 header{
-background-color: var(--cor4);
+background-color: var(--cor1);
+display: flex;
 text-align: center;
-padding: 20px;
-}
-header > h1{
-color: var(--cor2);
-text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.678);
-    
+
 }
 
-header > p {
-color: var(--cor2);
-text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.726);
-padding-top: 9px;
+header  h1{
+color: var(--cor5);
+font-size: 26px;
+font-family: var(--fonte-titulo);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.932);
+padding: 5px 6px 10px;
+}
+
+header  p{
+color: var(--cor5);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.842);
+display: flex;
+justify-content: center;
+
+}
+
+.cabeçalho{
+flex: 80%;
+
+}
+
+header > div > img{
+width: 70px;
+
+}
+
+.logo{
+flex: 0%;
+display: flex;
+align-items: center;
+
 }
 
 nav{
-background-color: var(--cor1);
-padding: 2px;
-display: flex;
-justify-content: space-evenly;
-
-}
-
-nav > a{
-color: var(--cor2);
-text-decoration: none;
-font-size: 16px;
-border-radius: 0px 10px 10px 0px ;
-padding: 3px;
-
-}
-
-nav > a:hover{
- background-color: var(--cor3);   
-
-}
-main h1{
-padding: 10px 0px 10px 13px;
-font-size: 28px;
-
-}
-main h2{
-font-size: 20px;
-padding: 2px 0px 7px 13px;
-
-}
-
-.delado{
-   display: flex;
-
-    }
-.delado h1{
-font-size: 23px;
-
-}
-
-
-main img{
-    display: flex;
-    justify-content: start;
-    margin: 10px;
-    border: 1px solid black;
+  background-color:rgb(15, 15, 15);
   
-    }
+}
+
+.nav-menu {
+display: flex;
+padding: 0px;
+
+}
+
+.nav-menu > li{
+list-style: none;
+padding: 3px 3px ;
+background-color: white;
+margin: 8px;
+display: flex;
+align-items: center;
+border-radius: 10px;
+justify-content: center;
+}
+
+.nav-menu a {
+text-decoration: none;
+color: black;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
