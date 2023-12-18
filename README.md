@@ -1,3 +1,4 @@
 # Trabalho
 para trabalho
-para trabalho e estudos 
+e estudos
+
