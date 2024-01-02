@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
+
+:root{
+
+    --cor1: #F24C27 ;
+    --cor2: #D96E30;
+    --cor3: #F2B705;
+    --cor4: #F2CB05;
+    --cor5: #F2F2F2 ;
+
+   --fonte-padrão:Arial,Helvetica, sans-serif;
+  --fonte-titulo: "Courier Prime", "cursive";
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+header{
+background-color: var(--cor1);
+display: flex;
+text-align: center;
+
+}
+
+header  h1{
+color: var(--cor5);
+font-size: 26px;
+font-family: var(--fonte-titulo);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.932);
+padding: 5px 6px 10px;
+}
+
+header  p{
+color: var(--cor5);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.842);
+display: flex;
+justify-content: center;
+
+}
+
+.cabeçalho{
+flex: 80%;
+
+}
+
+header > div > img{
+width: 70px;
+
+}
+
+.logo{
+flex: 0%;
+display: flex;
+align-items: center;
+
+}
+
+nav{
+  background-color:rgb(15, 15, 15);
+
+}
+
+.nav-menu {
+display: flex;
+padding: 0px;
+
+}
+
+.nav-menu > li{
+list-style: none;
+padding: 3px 3px ;
+background-color: white;
+margin: 8px;
+display: flex;
+align-items: center;
+border-radius: 10px;
+justify-content: center;
+}
+
+.nav-menu a {
+text-decoration: none;
+color: black;
+
+} 
+
+.nav-menu > li:hover {
+background-color: var(--cor2);
+padding: 10px;
+transition-duration: .2s;
+}
