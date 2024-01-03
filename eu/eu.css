@@ -67,16 +67,15 @@ width: 60px;
 
 header{
 text-align: center;
-  display: flex;
+height: 500px;
 }
 
 header > img.eu{
 width: 100px;
-height: 150px;
-border-radius: 100px;
 border: solid 2px rgba(0, 0, 0, 0.829);
 margin-top: 10px;
 margin-left: 10px;
+border-radius: 0px 20px;
 }
 
 .conteudo > h1{
@@ -94,37 +93,14 @@ font-size: 14px;
 
 }
 
-.grande{
- width: 400px;
-}
-
-main{
-height: 800px;
-width: 400px;
-text-align: justify;
-margin: auto;
-text-align: center;
-background-color: var(--cor6);
-border-radius: 16px;
-
-}
-.principal{
-
-
-}
-
-main > div >  h1{
-color: white;
-text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.829);
-
-}
-
-main > div > p{
-  color: rgb(15, 14, 14);
-  padding: 10px;
-}
 
 footer{
 margin-top: 100px;
+text-align: center;
+background-color: var(--cor1);
+}
+
+footer > p{
+color: white;
 
 }
